@@ -1,5 +1,5 @@
 {
-  "name": "irdeto/mm-transliterator",
+  "name": "Minras/transliterator-replacement",
   "description": "String transliterator",
   "keywords": [
     "transliterator",
@@ -7,7 +7,7 @@
     "i18n"
   ],
   "type": "library",
-  "license": "Artistic-1.0",
+  "license": "MIT",
   "replace": {
     "behat/transliterator": "*"
   }
