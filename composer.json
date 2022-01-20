@@ -1,5 +1,5 @@
 {
-  "name": "behat/transliterator",
+  "name": "irdeto/mm-transliterator",
   "description": "String transliterator",
   "keywords": [
     "transliterator",
@@ -8,27 +8,7 @@
   ],
   "type": "library",
   "license": "Artistic-1.0",
-  "require": {
-    "php": ">=5.3.3"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^4.8.36|^6.3",
-    "php-yaoi/php-yaoi": "^1.0",
-    "chuyskywalker/rolling-curl": "^3.1"
-  },
-  "autoload": {
-    "psr-4": {
-      "Behat\\Transliterator\\": "src/Behat/Transliterator"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Behat\\Tests\\Transliterator\\": "tests"
-    }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.x-dev"
-    }
+  "replace": {
+    "behat/transliterator": "*"
   }
 }
